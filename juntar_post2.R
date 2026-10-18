@@ -15,6 +15,7 @@ datvodafone$id<-2 #vodafone
 datorange$id<-3 #orange
 datdigi$id<-4 #digi
 datpost<-rbind(datmovistar,datvodafone,datorange,datdigi)
+library(dplyr)
 conten<-datpost |>
   select(id,text,tweet_url,view_count,created_at) |>
   mutate(envio=sub("^([^ ]*).*", "\\1", text), 
