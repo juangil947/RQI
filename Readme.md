@@ -1,6 +1,4 @@
-# Evaluación de la calidad del servicio al cliente en X 
-# mediante grandes modelos de lenguaje: un índice reproducible de 
-#la calidad de las respuestas para operadores de telecomunicaciones en España
+# Evaluación de la calidad del servicio al cliente en X mediante grandes modelos de lenguaje: un índice reproducible de la calidad de las respuestas para operadores de telecomunicaciones en España
 
 Este repositorio contiene el framework del conjunto de datos y 
 las evaluaciones de expertos utilizadas para analizar el 
